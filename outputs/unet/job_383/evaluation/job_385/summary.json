@@ -1,0 +1,26 @@
+{
+  "training_run": "job_383",
+  "evaluation_job": "job_385",
+  "n_test": 130,
+  "threshold": 0.5,
+  "grid_size": [
+    256,
+    256
+  ],
+  "mean_Dice": 0.6822425898882609,
+  "mean_IoU": 0.5842820578947406,
+  "mean_HD95_px_all_cases": "Infinity",
+  "mean_HD95_px_finite_only": 42.99715903853066,
+  "n_infinite_HD95": 4,
+  "mask_status_counts": {
+    "nonempty": 126,
+    "prediction_empty": 4
+  },
+  "HD95_definition": "95th percentile of pooled bidirectional nearest 4-connected boundary Euclidean distances on 256x256 grid; units pixels, not mm",
+  "empty_policy": "both empty: Dice/IoU=1, HD95=0; exactly one empty: Dice/IoU=0, HD95=infinity",
+  "averaging": "unweighted per-image mean; no test sample is silently excluded",
+  "prediction_encoding": "PNG pixel values 0 and 1; view using vmin=0,vmax=1",
+  "torch_version": "2.12.1+cu130",
+  "scipy_version": "1.17.1",
+  "weights_sha256": "e970186c8c1a65e2c2487520040afb33717cf289724675564ff3c23c3239205d"
+}

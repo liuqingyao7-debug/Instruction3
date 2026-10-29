@@ -1,0 +1,22 @@
+# Python caches and notebook checkpoints
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Slurm logs and executed notebook copies
+logs/
+executed_notebooks/
+
+# Model weights and checkpoints (too large for GitHub)
+*.pth
+*.pt
+*.ckpt
+
+# nnU-Net working folders (dataset copy, preprocessed data, training results)
+outputs/nnunet/nnUNet_raw/
+outputs/nnunet/nnUNet_preprocessed/
+outputs/nnunet/nnUNet_results/
+outputs/nnunet/predictions_raw/
+
+# Per-model visualization pages (already shown in the notebooks)
+outputs/**/visualizations/

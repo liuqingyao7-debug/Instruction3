@@ -1,0 +1,11 @@
+{
+    "channel_names": {
+        "0": "zscore"
+    },
+    "labels": {
+        "background": 0,
+        "tumor": 1
+    },
+    "numTraining": 517,
+    "file_ending": ".png"
+}

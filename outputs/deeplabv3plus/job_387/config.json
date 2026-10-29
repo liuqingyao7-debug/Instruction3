@@ -1,0 +1,17 @@
+{
+  "model": "deeplabv3plus",
+  "seed": 42,
+  "image_size": [
+    256,
+    256
+  ],
+  "batch_size": 8,
+  "epochs": 50,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "loss": "0.5 * BCEWithLogits + 0.5 * soft Dice",
+  "augmentation": "none",
+  "pretrained": false,
+  "train_images": 517,
+  "slurm_job_id": "387"
+}
